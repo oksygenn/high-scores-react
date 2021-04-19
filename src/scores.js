@@ -1,3 +1,4 @@
+/* eslint-disable indent, linebreak-style */
 let allCountryScores = [
   {
     name: "Ethiopia",
