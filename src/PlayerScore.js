@@ -2,7 +2,7 @@
 import React from "react";
 const PlayerScore = (props) => {
   return (
-    <ul>
+    <ul className="player">
       <li>{props.player.n}</li>
       <li>{props.player.s}</li>
     </ul>
