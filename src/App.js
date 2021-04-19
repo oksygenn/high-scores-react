@@ -6,10 +6,10 @@ import allCountryScores from "./scores.js";
 const App = () => {
   return (
     <div>
-      <h1>High scores per Country</h1>
-      {allCountryScores.map((country, index) => (
-        <HighScoreTable country={country} key={index} />
-      ))}
+      <h1>High Scores per Country</h1>
+      {allCountryScores.map((country, index) => {
+        return <HighScoreTable country={country} key={index} />;
+      })}
     </div>
   );
 };
