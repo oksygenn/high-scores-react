@@ -1,10 +1,10 @@
 /* eslint-disable indent, linebreak-style */
 import React from "react";
-const PlayerScore = (props) => {
+const PlayerScore = ({ player }) => {
   return (
     <ul className="player">
-      <li>{props.player.n}</li>
-      <li>{props.player.s}</li>
+      <li>{player.n}</li>
+      <li>{player.s}</li>
     </ul>
   );
 };

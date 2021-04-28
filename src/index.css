@@ -20,16 +20,3 @@ main {
   padding: 3rem;
   text-align: center;
 }
-
-.scoreTable {
-  border: 3px solid blue;
-  margin: 3rem;
-}
-
-.player {
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 2px solid green;
-  padding: 1rem;
-  font-weight: bold;
-}

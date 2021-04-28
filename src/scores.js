@@ -2,6 +2,7 @@
 let allCountryScores = [
   {
     name: "Ethiopia",
+
     scores: [
       { n: "Sub", s: 9990 },
       { n: "lucy", s: "4134234" },
