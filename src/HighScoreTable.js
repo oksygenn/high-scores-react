@@ -1,4 +1,4 @@
-/* eslint-disable indent, linebreak-style */
+/* eslint-disable indent, linebreak-style, comma-dangle */
 import React from "react";
 import PlayerScore from "./PlayerScore.js";
 
