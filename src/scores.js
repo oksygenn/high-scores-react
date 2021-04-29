@@ -1,5 +1,5 @@
 /* eslint-disable indent, linebreak-style */
-let allCountryScores = [
+export let allCountryScores = [
   {
     name: "Ethiopia",
 
@@ -64,4 +64,4 @@ let allCountryScores = [
   },
 ];
 
-export default allCountryScores;
+// export default allCountryScores;
